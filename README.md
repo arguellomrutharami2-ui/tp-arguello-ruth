@@ -1,6 +1,6 @@
 # Explorador de episodios · Rick and Morty
 
-- **Autor/a:** Tu Nombre Apellido
+- **Autor/a:** Ruth Arguello
 - **Variante:** C · Episodios (último dígito de cédula: 8)
 - **Página publicada:**(https://arguellomrutharami2-ui.github.io/tp-arguello-ruth/)
 - **Repositorio:**(https://github.com/arguellomrutharami2-ui/tp-arguello-ruth)
