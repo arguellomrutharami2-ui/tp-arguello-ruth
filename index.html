@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Explorador de episodios · Rick and Morty</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header class="encabezado">
+    <h1>Explorador de episodios</h1>
+    <p class="encabezado__sub">Rick and Morty</p>
+  </header>
+
+  <main class="contenido">
+    <form id="formulario" class="buscador">
+      <div class="campo">
+        <label for="nombre">Nombre del episodio</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ej.: pilot">
+      </div>
+      <div class="campo">
+        <label for="temporada">Temporada</label>
+        <select id="temporada" name="temporada">
+          <option value="">Todas</option>
+          <option value="S01">S01</option>
+          <option value="S02">S02</option>
+          <option value="S03">S03</option>
+          <option value="S04">S04</option>
+          <option value="S05">S05</option>
+        </select>
+      </div>
+      <button type="submit" id="boton">Buscar</button>
+    </form>
+
+    <p id="mensaje" class="mensaje" role="status" aria-live="polite"></p>
+    <section id="resultados" class="grilla" aria-label="Resultados"></section>
+  </main>
+
+  <footer class="pie">
+    <p>Trabajo Práctico · Ruth Arguello</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
